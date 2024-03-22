@@ -3,6 +3,7 @@ import 'package:widgets_2024_1/config/menu/menu_items.dart';
 import 'package:widgets_2024_1/presentation/widgets/CustomListTitle.dart';
 
 class HomeScreen extends StatelessWidget {
+  final String name = "HomeScreen"; 
   const HomeScreen({super.key});
 
   @override

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:widgets_2024_1/config/menu/menu_items.dart';
 
 
@@ -10,7 +11,7 @@ class CustomListTitle extends StatelessWidget {
 
   final MenuItem menuItem;
 
-  @override
+    @override
   Widget build(BuildContext context) {
     return ListTile(
       leading: Icon(
@@ -20,7 +21,7 @@ class CustomListTitle extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subtitle),
       onTap: () => {
-        print("Llamado de la liga para ir a ${menuItem.title} en la liga de ${menuItem.link}")
+       context.push(menuItem.link)
       },);
   }
 }
