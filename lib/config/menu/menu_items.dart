@@ -27,15 +27,15 @@ class MenuItem{
 
     MenuItem(title: "Snackbar y Dialogos",
             nameScreen: "SnackbarScreen", subtitle: "Indicadores en pantalla", 
-            link: "/snackbar_dialogos", icon: Icons.perm_device_information),
+            link: "/snackbars", icon: Icons.perm_device_information),
     
     MenuItem(title: "Snackbar y Dialogos",
-            nameScreen: "Snackbar2Screen", subtitle: "Indicadores en pantalla", 
-            link: "/snackbar_dialogos_2", icon: Icons.square_sharp),
+            nameScreen: "Animated", subtitle: "Indicadores en pantalla", 
+            link: "/animated", icon: Icons.square_sharp),
     
     MenuItem(title: "UI Control + Tiles",
             nameScreen: "UIControlScreen", subtitle: "Una Serie de Controles de Flutter", 
-            link: "/UI_control", icon: Icons.car_rental),
+            link: "/ui_control", icon: Icons.car_rental),
     
     MenuItem(title: "Introduccion a la aplicacion",
             nameScreen: "IntroductionScreen", subtitle: "Pequeño tutorial introductorio", 
@@ -43,9 +43,9 @@ class MenuItem{
 
     MenuItem(title: "Infinite Scroll y Pull",
             nameScreen: "InfiniteScroll_PullScreen", subtitle: "Listas Infinitas y Pull To Refresh", 
-            link: "/infinite_scroll_and_pull", icon: Icons.add_chart_outlined),
+            link: "/infinite", icon: Icons.add_chart_outlined),
     
     MenuItem(title: "Cambiar Tema",
             nameScreen: "ChangeThemeScreen", subtitle: "Cambiar tema de la aplicacion", 
-            link: "/change_theme", icon: Icons.palette_rounded),
+            link: "/theme_changer", icon: Icons.palette_rounded),
   ];
