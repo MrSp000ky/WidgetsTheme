@@ -28,8 +28,8 @@ final router = GoRouter(
     ),
     GoRoute(
       path: '/card',
-      name: const CardScreen().name,
-      builder: (context, state) => const CardScreen(),
+      name: const CardsScreen().name,
+      builder: (context, state) => const CardsScreen(),
     ),
     GoRoute(
       path: '/progress_indicators',
@@ -53,13 +53,13 @@ final router = GoRouter(
     ),
     GoRoute(
       path: '/introduction',
-      name: const IntroductionScreen().name,
-      builder: (context, state) => const IntroductionScreen(),
+      name: const AppTutorialScreen().name,
+      builder: (context, state) => const AppTutorialScreen(),
     ),
     GoRoute(
       path: '/infinite',
-      name: const InfiniteScreen().name,
-      builder: (context, state) => const InfiniteScreen(),
+      name: const InfiniteScrollScreen().name,
+      builder: (context, state) => const InfiniteScrollScreen(),
     ),
     GoRoute(
       path: '/theme_changer',
